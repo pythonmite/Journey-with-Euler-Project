@@ -15,5 +15,6 @@ a = list(map(int, a))
 # Use sum function to calculate the sum of the list
 result = sum(a)
 print(result)
+
 # Answer 1366
 

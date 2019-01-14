@@ -11,7 +11,9 @@
             1) Should end with Zero, such that it is evenly divisble by 10 or 20
             2) Should be greater then 20 :-D
             3) SHhould be even ending number such that it is part of the sequence 40,60,80.........
+
 """
+# TODO : find way to reduce the computational time.
 
 # we will start with 20
 start_number = 20

@@ -5,7 +5,7 @@ from os import path
 
 df = pd.read_csv(path.join('Region Temperature Reports', 'Aberdeen.csv')) #reading csv file in python and storing
 df['date'] = pd.to_datetime(df['date']) #converting datetime formate from str to date type 
-print(df.dtypes) #showing typeso= of data
+print(df.dtypes) #showing types of data
 print(df.head(10)) #to show first 10 rows from csv file
 print(df.tail(10)) #to show last 10 rows from csv file
 

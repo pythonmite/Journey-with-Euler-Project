@@ -11,7 +11,7 @@ from math import sqrt; from itertools import count, islice
 
 
 def prime_number_range(nth):
-    count = 0
+    count = 1
     num = 2
     while True:
         if  (num > 1 and all(num%i for i in islice(count(2), int(sqrt(num)-1)))):

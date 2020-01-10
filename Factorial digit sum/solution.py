@@ -21,10 +21,8 @@ list =[]
 
 res = str(result)
 for i in res:
-    list.append(int(i))
-sum = sum([i for i in list])
-print(sum)   
+    list.append(int(i))  
+print(sum(list))
 
-    
 
 #answer --> 648 

@@ -7,7 +7,7 @@ and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
 
 Find the sum of the digits in the number 100!
 '''
-
+     
 def factorial(n):    # Recursion
     if n <= 1:
         return n
@@ -21,10 +21,6 @@ list =[]
 
 res = str(result)
 for i in res:
-    list.append(int(i))
-sum = sum([i for i in list])
-print(sum)   
-
-    
-
+    list.append(int(i))  
+print(sum(list))
 #answer --> 648 
